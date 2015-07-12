@@ -11,9 +11,10 @@ def index():
     return render_template('body.html')
 
 
+@app.route('/about')
 @app.route('/sobremi')
 def sobremi():
-    return render_template('sobremi.html')
+    return render_template('about.html')
 
 
 @app.route('/clasesdeguitarra')
